@@ -1,38 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  background-color: #ececef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.categories {
+  height: 70vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-scroll img {
+  height: 70vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.marketregion {
+  background-image: url(./components/Home/img/marketRegionBg.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  width: 93%;
+  margin: 0 auto;
+  border-radius: 9px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mpDispla {
+  width: 95%;
+  margin: auto;
 }
