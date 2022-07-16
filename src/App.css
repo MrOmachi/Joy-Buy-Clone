@@ -28,3 +28,21 @@
   width: 95%;
   margin: auto;
 }
+
+.electronics {
+  width: 90%;
+  margin: 0 auto;
+  height: 90vh;
+}
+.electronicsBanner {
+  background-image: url(./components/Home/img/consumerElectronics.jpg);
+  width: 30%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+.electronicsCards {
+  width: 80%;
+  height: 85vh;
+}

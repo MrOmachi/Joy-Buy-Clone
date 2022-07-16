@@ -1,6 +1,5 @@
 import React from 'react';
 import Market1Img from './img/market1.png';
-import OemImg from './img/oem.jpg';
 
 function MarketRegion() {
   return (
