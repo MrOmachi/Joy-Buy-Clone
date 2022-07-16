@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer/Footer';
 import Banner from './components/Home/Banner';
 import ConsumerElect from './components/Home/ConsumerElect';
 import ElectCardsDisplay from './components/Home/ElectCardsDisplay';
@@ -17,6 +18,7 @@ function App() {
         <MarketRegion />
         <MarketProductsDisplay />
         <ConsumerElect />
+        <Footer />
       </>
     </div>
   );
