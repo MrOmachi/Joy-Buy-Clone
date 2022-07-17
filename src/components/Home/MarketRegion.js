@@ -4,7 +4,7 @@ import Market1Img from './img/market1.png';
 function MarketRegion() {
   return (
     <div>
-      <div className='marketregion d-flex'>
+      <div className='marketregion d-flex pb-4'>
         <div class='card m-3 ms-auto' style={{ width: '18rem' }}>
           <div class='card-body'>
             <h5 class='card-text'>North American Market</h5>

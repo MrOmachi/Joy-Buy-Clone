@@ -46,13 +46,13 @@ function Banner() {
             ></button>
           </div>
           <div class='carousel-inner'>
-            <div class='carousel-item active'>
+            <div class='carousel-item w-25 active'>
               <img src={BannerIme} class='d-block  w-100' alt='...' />
             </div>
-            <div class='carousel-item'>
+            <div class='carousel-item w-25 '>
               <img src={BannerIme} class='d-block  w-100' alt='...' />
             </div>
-            <div class='carousel-item'>
+            <div class='carousel-item w-25 '>
               <img src={BannerIme} class='d-block  w-100' alt='...' />
             </div>
           </div>

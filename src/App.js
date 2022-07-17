@@ -8,6 +8,7 @@ import MarketRegion from './components/Home/MarketRegion';
 import Nav from './components/Navigations/Nav';
 import Nav2 from './components/Navigations/Nav2';
 import Products from './components/Product page/Products';
+import SigngUpLogin from './components/Signg up Login/SigngUpLogin';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <ConsumerElect />
         <Footer />
         <Products />
+        <SigngUpLogin />
       </>
     </div>
   );

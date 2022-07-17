@@ -39,12 +39,15 @@
   width: 30%;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 85vh;
+  height: 450px;
 }
 
 .electronicsCards {
   width: 80%;
   height: 85vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: auto;
 }
 
 /* product page */
@@ -64,4 +67,12 @@
 
 .productToCart {
   width: 30%;
+}
+
+.loginSignup {
+  background-image: url(./components/Formbackgrnd.png);
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80vh;
 }
