@@ -7,6 +7,7 @@ import MarketProductsDisplay from './components/Home/MarketProductsDisplay';
 import MarketRegion from './components/Home/MarketRegion';
 import Nav from './components/Navigations/Nav';
 import Nav2 from './components/Navigations/Nav2';
+import Products from './components/Product page/Products';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <MarketProductsDisplay />
         <ConsumerElect />
         <Footer />
+        <Products />
       </>
     </div>
   );

@@ -47,6 +47,21 @@
   height: 85vh;
 }
 
-/* .footersec {
-  height: 100vh;
+/* product page */
+
+/* .productsContainer {
+  width: 95%;
+  margin: 0 auto;
 } */
+
+.productsImg {
+  width: 30%;
+}
+
+.productShortDetails {
+  width: 40%;
+}
+
+.productToCart {
+  width: 30%;
+}
